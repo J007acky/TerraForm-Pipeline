@@ -12,8 +12,8 @@
   # Providers configuration details for the Azure Terraform provider
   provider "azurerm" {
       features {}
-      subscription_id = var.subs_id
-      tenant_id = var.tenant_id
+      subscription_id =  "71dd8aa2-d476-436b-bf75-61b8ae29cd69"
+#     tenant_id = var.tenant_id
 #     client_id = var.client_id
 #    client_secret = var.client_secret
   }
